@@ -1,7 +1,7 @@
 {
   "dataset-site-url": "http://data.emduk.org/",
   "title": "EMD UK Group Exercise Session Data",
-  "description": "Session data from the Class Finder site (opt in only)",
+  "description": "Session data from EMD UK instructor class portals (opt in only)",
   "publisher-name": "EMD UK",
   "publisher-url": "https://www.emduk.org",
   "keyword-1": "Fitness classes",
