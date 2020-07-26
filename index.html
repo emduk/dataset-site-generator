@@ -18,7 +18,7 @@
     <title>EMD UK Group Exercise Session Data - Open Data</title>
 
     <meta name="title" content="EMD UK Group Exercise Session Data - Open Data" />
-    <meta name="identifier" content="http://data.emduk.org/" />
+    <meta name="identifier" content="https://data.emduk.org/" />
     <meta name="Keywords" content="Fitness classes, Group Exercise, OpenActive" />
     <meta name="Description" content="Session data from EMD UK instructor class portals (opt in only); published using OpenActive RPDE v2.0." />
     <meta name="language" content="English" />
@@ -26,8 +26,8 @@
     <meta property="og:title" content="EMD UK Group Exercise Session Data - Open Data" />
     <meta property="og:description" content="Session data from EMD UK instructor class portals (opt in only)" />
     <meta property="og:locale" content="en_GB" />
-    <meta property="og:url" content="http://data.emduk.org/" />
-    <meta property="og:image" content="http://data.emduk.org/images/logo.png" />
+    <meta property="og:url" content="https://data.emduk.org/" />
+    <meta property="og:image" content="https://data.emduk.org/images/logo.png" />
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -40,45 +40,61 @@
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
-      "@type" : "Dataset",
-      "name" : "EMD UK Group Exercise Session Data",
-      "id": "https://data.emduk.org/",
+      "@context": [
+        "https://schema.org/",
+        "https://openactive.io/"
+      ],
+      "@type": "Dataset",
+      "@id": "https://data.emduk.org/",
       "url": "https://data.emduk.org/",
-      "description" : "Session data from EMD UK instructor class portals (opt in only); published using OpenActive RPDE v2.0.",
+      "name": "EMD UK Group Exercise Session Data",
+      "description": "Session data from EMD UK instructor class portals (opt in only); published using OpenActive RPDE v2.0.",
       "keywords":[
-         "Fitness classes",
-         "Group Exercise",
-         "OpenActive"
+          "Fitness classes",
+          "Group Exercise",
+          "OpenActive"
       ],
       "license" : "https://creativecommons.org/licenses/by/4.0/",
-      "distribution" : {
-        "@type" : "DataDownload",
-        "encodingFormat" : "application/vnd.openactive.rpde+json; version=2.0",
-        "contentUrl" : "https://www.classfinder.org.uk/api/public/classes"
-      },
-      "inLanguage": "en-GB",
+      "distribution": [
+        {
+          "@type" : "DataDownload",
+          "encodingFormat" : "application/vnd.openactive.rpde+json; version=2.0",
+          "contentUrl" : "https://www.classfinder.org.uk/api/public/classes"
+        }
+      ],
+      "discussionUrl": "https://github.com/emduk/opendata/issues",
+      "documentation": "https://github.com/emduk/opendata",
+      "inLanguage": [
+        "en-GB"
+      ],
       "publisher": {
-         "@type": "Organization", 
-         "name": "EMD UK",
-         "url": "https://www.emduk.org",
-         "logo": "https://data.emduk.org/images/logo.png"
+        "@type": "Organization",
+        "name": "EMD UK",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://data.emduk.org/images/logo.png"
+        },
+        "url": "https://www.emduk.org"
       },
-      "datePublished" : "2018-09-28T00:00:00.000Z"
+      "datePublished": "2018-09-28T00:00:00.000Z",
+      "backgroundImage": {
+        "@type": "ImageObject",
+        "url": "https://data.emduk.org/images/bg.jpg"
+      }
     }
     </script>
   </head>
   <body class="is-loading">
 
     <!-- Wrapper -->
-      <div id="wrapper" typeof="dcat:Dataset" resource="http://data.emduk.org/">
+      <div id="wrapper" typeof="dcat:Dataset" resource="https://data.emduk.org/">
 
         <!-- Main -->
           <section id="main">
             <header>
                     <div>
                         <a href="https://www.emduk.org" about="https://www.emduk.org" property="foaf:homepage">
-                            <span class="avatar" property="foaf:name" content="EMD UK"><img class="logo" src="http://data.emduk.org/images/logo.png" alt=""/></span>
+                            <span class="avatar" property="foaf:name" content="EMD UK"><img class="logo" src="https://data.emduk.org/images/logo.png" alt=""/></span>
                         </a>
                     </div>
               
@@ -121,7 +137,7 @@
                         <a class="metadata" href="https://creativecommons.org/licenses/by/4.0/" property="odrs:dataLicense">Creative Commons Attribution Licence (CC-BY v4.0)</a>
                         <a class="metadata" href="https://creativecommons.org/licenses/by/4.0/" property="odrs:contentLicense">Creative Commons Attribution Licence (CC-BY v4.0)</a>
                         using attribution 
-                        "<a href="http://data.emduk.org/" property="odrs:attributionURL"><span property="odrs:attributionText">EMD UK Class Finder</span></a>".
+                        "<a href="https://data.emduk.org/" property="odrs:attributionURL"><span property="odrs:attributionText">EMD UK Class Finder</span></a>".
                     </span>
               </div>
               <p></p>
