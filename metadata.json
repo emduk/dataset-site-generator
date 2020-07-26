@@ -1,5 +1,5 @@
 {
-  "dataset-site-url": "http://data.emduk.org/",
+  "dataset-site-url": "https://data.emduk.org/",
   "title": "EMD UK Group Exercise Session Data",
   "description": "Session data from EMD UK instructor class portals (opt in only)",
   "publisher-name": "EMD UK",
@@ -13,7 +13,7 @@
   "license-name": "Creative Commons Attribution Licence (CC-BY v4.0)",
   "license-url": "https://creativecommons.org/licenses/by/4.0/",
   "attribution-text": "EMD UK Class Finder",
-  "attribution-url": "http://data.emduk.org/",
+  "attribution-url": "https://data.emduk.org/",
   "mailchimp": "require([\"mojo/signup-forms/Loader\"], function(L) { L.start({\"baseUrl\":\"mc.us19.list-manage.com\",\"uuid\":\"288411dd77c4e051a0424956b\",\"lid\":\"2b14e6e5af\"}) })",
   "copyright-notice": "",
   "odi-certificate-number": "",
